@@ -4,7 +4,6 @@ This is the formal documentation for the signal processing of various sources of
 
 <br/>
 <br/>
-<br/>
 
 
 # Table of Contents
@@ -14,7 +13,9 @@ This is the formal documentation for the signal processing of various sources of
 2. Clinical Recordings EEG Pipeline
 
 
-
+<br/>
+<br/>
+<br/>
 
 
 
