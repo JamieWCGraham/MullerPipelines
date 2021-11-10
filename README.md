@@ -34,7 +34,6 @@ This is the formal documentation for the signal processing of raw data from the 
   
   <li> Open the file process_wm1_rawdata.m in the MATLAB workspace, and set your pathway directory to the 'Martinez-Trujillo' folder you just downloaded. This software requires the Neural Processing MATLAB Toolkit (NPMK). Luckily, we have included it in the sub-folder 'NPMK' -- so no additional downloads are necessary. </li>
   
-  
 </ol>
 
 
@@ -43,7 +42,7 @@ This is the formal documentation for the signal processing of raw data from the 
 <ol> 
   <li>Follow the block of text 'INSTRUCTIONS' at the top of the file process_wm1_rawdata.m</li>
 
-  <li> Open the file process_wm1_rawdata.m in the MATLAB workspace, and set your pathway directory to the 'Martinez-Trujillo' folder you just downloaded. This software requires the Neural Processing MATLAB Toolkit (NPMK). Luckily, we have included it in the sub-folder 'NPMK' -- so no additional downloads are necessary. </li>
+  <li> </li>
 </ol>
 
 
