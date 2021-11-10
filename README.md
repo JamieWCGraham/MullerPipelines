@@ -6,13 +6,22 @@ This is the formal documentation for the signal processing of various sources of
 # Table of Contents
 
 <ol> 
-<li> Martinez-Trujillo Monkey Lab LFP Pipeline </li>
-
-<li>  Clinical Recordings EEG Pipeline</li>
+  <li> <h4> Martinez-Trujillo Monkey Lab LFP Pipeline </h4> </li>
+  <ul> 
+    <li>Installation and Basic Setup</li>
+    <li> Usage </li>
+    <li> Credits </li>
+  </ul>
+<li> <h4>  Clinical Recordings EEG Pipeline   </h4> </li>
+    <ul> 
+    <li>Installation and Basic Setup</li>
+    <li> Usage </li>
+    <li> Credits </li>
+  </ul>
 </ol> 
 
 
-## Martinez-Trujillo Monkey Lab LFP Pipeline
+## 1. Martinez-Trujillo Monkey Lab LFP Pipeline
 
 This is the formal documentation for the signal processing of raw data from the intracranial electrode EEG recordings from the monkey lab (Martinez-Trujillo). 
 
@@ -21,7 +30,11 @@ This is the formal documentation for the signal processing of raw data from the 
 <ol> 
   <li> Clone this GitHub repository, or download the folder entitled 'Martinez-Trujillo'. Make sure you have MATLAB (2019+) downloaded on your computer. </li>
 
+  <li> Place all your raw data files inside the folder entitled 'Martinez-Trujillo' on your computer. </li>
+  
   <li> Open the file process_wm1_rawdata.m in the MATLAB workspace, and set your pathway directory to the 'Martinez-Trujillo' folder you just downloaded. This software requires the Neural Processing MATLAB Toolkit (NPMK). Luckily, we have included it in the sub-folder 'NPMK' -- so no additional downloads are necessary. </li>
+  
+  
 </ol>
 
 
@@ -34,9 +47,17 @@ This is the formal documentation for the signal processing of raw data from the 
 </ol>
 
 
+### Credits
 
 
-## Clinical Recordings EEG Pipeline
+
+## 2. Clinical Recordings EEG Pipeline
 
 This is the formal documentation for the signal processing of the intracranial EEG recording during hospitalization of epileptic patient.
+
+### Installation and Basic Setup 
+
+### Usage 
+
+### Credits
 
