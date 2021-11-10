@@ -5,10 +5,11 @@ This is the formal documentation for the signal processing of various sources of
 
 # Table of Contents
 
-1. Martinez-Trujillo Monkey Lab LFP Pipeline
+<ol> 
+<li> Martinez-Trujillo Monkey Lab LFP Pipeline </li>
 
-2. Clinical Recordings EEG Pipeline
-
+<li>  Clinical Recordings EEG Pipeline</li>
+</ol> 
 
 
 ## Martinez-Trujillo Monkey Lab LFP Pipeline
