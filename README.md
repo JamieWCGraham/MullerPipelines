@@ -17,7 +17,9 @@ This is the formal documentation for the signal processing of raw data from the 
 
 ### Installation 
 
-here we go
+<ol> 
+  <li> Clone this GitHub repository, or download the folder entitled 'Martinez-Trujillo'. Make sure you have MATLAB (2019+) downloaded on your computer. </li>
+</ol>
 
 ### Usage 
 
