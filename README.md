@@ -29,10 +29,8 @@ This is the formal documentation for the signal processing of raw data from the 
 
 <ol> 
   <li> Clone this GitHub repository, or download the folder entitled 'Martinez-Trujillo'. Make sure you have MATLAB (2019+) downloaded on your computer. </li>
-
-  <li> Place all your raw data files inside the folder entitled 'Martinez-Trujillo' on your computer. </li>
   
-  <li> Open the file process_wm1_rawdata.m in the MATLAB workspace, and set your pathway directory to the 'Martinez-Trujillo' folder you just downloaded. This software requires the Neural Processing MATLAB Toolkit (NPMK). Luckily, we have included it in the sub-folder 'NPMK' -- so no additional downloads are necessary. </li>
+  <li> Open the file process_wm1_rawdata.m in the MATLAB workspace, and set your pathway directory to the 'Martinez-Trujillo' folder you just downloaded. This software requires the Neural Processing MATLAB Toolkit (NPMK), and also the Signal Processing Toolkit. Make sure you have both downloaded. </li>
   
 </ol>
 
@@ -41,6 +39,8 @@ This is the formal documentation for the signal processing of raw data from the 
 
 <ol> 
   <li>Follow the block of text 'INSTRUCTIONS' at the top of the file process_wm1_rawdata.m</li>
+  
+    <li> The following is a diagram of the structure of this code. In order for the loading to run successfully, please place the appropriate files in each folder as designated below. Fistly, place all your raw data files in the inside the folder entitled 'Martinez-Trujillo' on your computer.  </li>
 
   <li> </li>
 </ol>
