@@ -23,5 +23,5 @@ This is the formal documentation for the signal processing of various sources of
 
 # Usage 
 
-<p> For the documentaiton on the Martinez-Trujillo pipeline, go to the READMEMartinezTrujillo.md file <a href="https://github.com/JamieWCGraham/MullerPipelines/blob/main/READMEMartinezTrujillo.md"> here </a> </p> 
-<p> For the documentaiton on the clinical recordings pipeline, go to the READMEClinicalData.md file <a href="https://github.com/JamieWCGraham/MullerPipelines/blob/main/READMEClinicalData.md"> here </a></p> 
+<p> For the documentaiton on the Martinez-Trujillo pipeline, go to the READMEMartinezTrujillo.md file <a href="https://github.com/JamieWCGraham/MullerPipelines/blob/main/READMEMartinezTrujillo.md"> here </a>. </p> 
+<p> For the documentaiton on the clinical recordings pipeline, go to the READMEClinicalData.md file <a href="https://github.com/JamieWCGraham/MullerPipelines/blob/main/READMEClinicalData.md"> here </a> .</p>
