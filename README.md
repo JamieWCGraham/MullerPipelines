@@ -28,22 +28,38 @@ This is the formal documentation for the signal processing of raw data from the 
 ### Installation and Basic Setup 
 
 <ol> 
-  <li> Clone this GitHub repository, or download the folder entitled 'Martinez-Trujillo'. Make sure you have MATLAB (2019+) downloaded on your computer. </li>
+  <li> Clone this GitHub repository, or download the folder in the code section entitled 'Martinez-Trujillo'. Make sure you have MATLAB (2019+) downloaded on your computer. </li>
   
-  <li> Open the file process_wm1_rawdata.m in the MATLAB workspace, and set your pathway directory to the 'Martinez-Trujillo' folder you just downloaded. This software requires the Neural Processing MATLAB Toolkit (NPMK), and also the Signal Processing Toolkit. Make sure you have both downloaded. </li>
+  <li> Open the file process_wm1_rawdata.m in the MATLAB workspace, and set your pathway directory to the 'Martinez-Trujillo' folder you just downloaded. This software requires the Neural Processing MATLAB Toolkit (NPMK), and also the Signal Processing Toolkit. Make sure you have both downloaded. Instructions for downloading Add-Ons in MATLAB can be found <a href="https://www.mathworks.com/help/matlab/matlab_env/get-add-ons.html">here</a>.  </li>
   
 </ol>
-
 
 ### Usage 
 
 <ol> 
-  <li>Follow the block of text 'INSTRUCTIONS' at the top of the file process_wm1_rawdata.m</li>
+    <li> Hopefully, you have opened the file "process_wm1_rawdata.m" in MATLAB. Before you run this file, you must ensure that your raw data files from the       Martinez-Trujillo Lab are stored in the correct folders. The file "process_wm1_rawdata.m" will prompt you to enter the following inputs:  
   
-    <li> The following is a diagram of the structure of this code. In order for the loading to run successfully, please place the appropriate files in each folder as designated below. Fistly, place all your raw data files in the inside the folder entitled 'Martinez-Trujillo' on your computer.  </li>
-
-  <li> </li>
+        <ul>
+        <li>
+          Session Recording Date:
+        </li>
+          <li>
+          Task Number: 
+        </li>
+         <li>
+          Subject Name:
+        </li>
+          <li>
+          Dorsal or Ventral Array (enter D or V):
+        </li>
+      </ul>
+      
+  </li>
+ 
+         <li>   The following is a diagram of the structure of this code. In order for the loading to run successfully, please place the appropriate files in each folder as designated below. We have provided a simple example of a set of Martinez-Trujillo data filenames to be loaded.  </li>
 </ol>
+
+<img src="https://i.ibb.co/BnSX18N/Martinez-Trujillo.jpg" />
 
 
 ### Credits
