@@ -36,32 +36,74 @@ This is the formal documentation for the signal processing of raw data from the 
 
 ### Usage 
 
+   <p>  Hopefully, you have opened the file "process_wm1_rawdata.m" in MATLAB. Before you run this file, you must ensure that your raw data files from the       Martinez-Trujillo Lab are stored in the correct folders. The file "process_wm1_rawdata.m" will prompt you to enter the following inputs:  </p>
+     
 <ol> 
-    <li> Hopefully, you have opened the file "process_wm1_rawdata.m" in MATLAB. Before you run this file, you must ensure that your raw data files from the       Martinez-Trujillo Lab are stored in the correct folders. The file "process_wm1_rawdata.m" will prompt you to enter the following inputs:  </li>
         <br/>
   <ul>
         <li>
-          Session Recording Date
+          Session Recording Date (month,date)
         </li>
           <li>
-          Task Number
+          Task Number (1,2, or 3)
         </li>
          <li>
-          Subject Name
+          Subject Name ('String')
         </li>
           <li>
-          Dorsal or Ventral Array (enter 1 (Dorsal) or 0 (Ventral))
+          Dorsal or Ventral Array (enter 1 or 0, respectively)
         </li>
       </ul>
   <br/>
-  <li>   The following is a diagram of the structure of this code. In order for the loading to run successfully, please place the appropriate files in each folder as designated below. We have provided a simple example of a set of Martinez-Trujillo data filenames to be loaded.  </li>
-</ol>
+  <li>   The following is a diagram of the structure of this code. In order for the loading to run successfully, please place the appropriate files in each folder as designated below in the blue circles. We have provided a simple example of a set of Martinez-Trujillo data filenames to be loaded. For this example,  </li>
+          <br/>
+  <ul>
+        <li>
+          Session Recording Date = 1127
+        </li>
+          <li>
+          Task Number = 1
+        </li>
+         <li>
+          Subject Name = Buzz
+        </li>
+          <li>
+          Dorsal or Ventral Array (enter 1 or 0, respectively) = 1
+        </li>
+      </ul>
+  <br/>
 
-<img src="https://i.ibb.co/BnSX18N/Martinez-Trujillo.jpg"><img/>
 
+<img src="https://i.ibb.co/y6C3nJ1/Martinez-Trujillo-18-x-19-in-18-x-15-in.jpg"><img/>
+
+
+<li> 
+    
+Look at the filenames in the blue circles. You should place your analagous files for your own dataset in the folder above each blue circle. Once you have placed the appropriate files in the designated folders above the blue circles, you can run the code "process_wm1_rawdata.m". It may take a while to run, as the code is iterating over all 100 electrodes in a given array.
+
+</li>
+  
+<li>
+  
+ Success! Your .mat files containing the loaded LFP data are in the 'output' folder specified above. 
+
+</li>
+  
+  <img src = "https://i.ibb.co/ykC3Qsv/Screen-Shot-2021-11-11-at-8-05-48-PM.png"> </img>
+  
+  
+
+  </ol>
+  
+  <br/>
 
 ### Credits
 
+<ul>
+  <li> Maryam Mofrad - author of code </li>
+   <li>  Lyle Muller - principal investigator </li> 
+   <li> Jamie Graham - editor, documentation, and organization </li> 
+</ul>
 
 
 ## 2. Clinical Recordings EEG Pipeline
