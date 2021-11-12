@@ -141,7 +141,11 @@ This is the formal documentation for the signal processing of the intracranial E
 
 ### Installation and Basic Setup 
 
+<p> Make sure that you have MATLAB installed and your raw .mat files ready to be processed. </p>
+
 ### Usage 
+
+
 
 ### Credits
 
