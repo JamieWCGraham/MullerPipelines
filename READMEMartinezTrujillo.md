@@ -48,7 +48,7 @@ This is the formal documentation for the signal processing of raw data from the 
   <br/>
 
 
-<img src="https://i.ibb.co/XCYNnfF/Martinez-Trujillo-18-x-19-in-18-x-15-in-2.png"><img/>
+<img src="https://i.ibb.co/Kz1gXYy/Martinez-Trujillo-18-x-19-in-18-x-15-in-3.png"><img/>
 
 
 <li> 
