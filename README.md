@@ -91,8 +91,17 @@ Look at the filenames in the blue circles. You should place your analagous files
   
   <img src = "https://i.ibb.co/ykC3Qsv/Screen-Shot-2021-11-11-at-8-05-48-PM.png"> </img>
   
-  
+ <li>
+  Now, open the file loadtest.m in the 'input' folder in order to load and understand the output .mat file structure. Run "loadtest.m", it will ask for the trial number of the .mat file you want to load, enter 100 just to test this out (or whatever trial you want to load). 
+  </li>
 
+ <li>
+  Click on the 'lfp' variable in the MATLAB workspace. 
+  </li>
+  
+  <img src="https://i.ibb.co/FqjsVP3/Screen-Shot-2021-11-11-at-8-14-03-PM.png"></img>
+  
+  
   </ol>
   
   <br/>
