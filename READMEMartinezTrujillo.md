@@ -16,7 +16,7 @@ This is the formal documentation for the signal processing of raw data from the 
 
 ### Usage 
 
-   <p>  Hopefully, you have opened the file "process_wm1_rawdata.m" in MATLAB. Before you run this file, you must ensure that your raw data files from the       Martinez-Trujillo Lab are stored in the correct folders. The file "process_wm1_rawdata.m" will prompt you to enter the following inputs:  </p>
+   <p>  Hopefully, you have opened the file "process_wm1_rawdata.m" in MATLAB. Before you run this file, you must ensure that your raw data files from the       Martinez-Trujillo Lab are stored in the correct folders, which we will show you how to do below. The file "process_wm1_rawdata.m" will prompt you to enter the following inputs:  </p>
      
 <ol> 
         <br/>
@@ -32,7 +32,7 @@ This is the formal documentation for the signal processing of raw data from the 
         </li>
       </ul>
   <br/>
-  <li>   The following is a diagram of the structure of this code. In order for the loading to run successfully, please place the appropriate files in each folder as designated below in the blue circles. We have provided a simple example of a set of Martinez-Trujillo data filenames to be loaded. For this example,  </li>
+  <li>   The following is a diagram of the structure of this code. We have provided a simple example of a set of Martinez-Trujillo data filenames to be loaded. For this example,  </li>
           <br/>
   <ul>
         <li>
@@ -63,7 +63,7 @@ This is the formal documentation for the signal processing of raw data from the 
   
 </ul>
   
-<p>Once you have placed the appropriate files in the designated folders above the blue circles, you can run the code "process_wm1_rawdata.m". It may take a while to run, as the code is iterating over all 100 electrodes in a given array. <strong> Note, when you are prompted to enter the subject name into the MATLAB command line, you need to use quotations around the name (e.g 'Buzz'), otherwise MATLAB will not read the variable as a string. </strong> Run the code now by clicking on the green arrow shown below in your MATLAB window.</p>
+<p>Once you have placed the appropriate files in the designated folders (above the blue circles), you can run the code "process_wm1_rawdata.m". It may take a while to run, as the code is iterating over all 100 electrodes in a given array. <strong> Note, when you are prompted to enter the subject name into the MATLAB command line, you need to use quotations around the name (e.g 'Buzz'), otherwise MATLAB will not read the variable as a string. </strong> Run the code now by clicking on the green arrow shown below in your MATLAB window.</p>
 
 </li>
   
@@ -107,7 +107,7 @@ This is the formal documentation for the signal processing of raw data from the 
   <img src="https://i.ibb.co/RvGvpX2/Screen-Shot-2021-11-11-at-8-17-56-PM.png"></img>
 
   <li>
- Now, you have loaded and understood the data--so that you can use it for your own research and connect it with other computational tools in the Muller Lab, etc. Cheers!
+ Now, you have loaded and understood the processed Monkey Lab data--so that you can use it for your own research and connect it with other computational tools in the Muller Lab, etc. Cheers!
   </li>
 
 
