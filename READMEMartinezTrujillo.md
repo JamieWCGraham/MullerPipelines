@@ -106,6 +106,11 @@ This is the formal documentation for the signal processing of raw data from the 
   
   <img src="https://i.ibb.co/RvGvpX2/Screen-Shot-2021-11-11-at-8-17-56-PM.png"></img>
 
+  <li>
+ Now, you have loaded and understood the data--so that you can use it for your own research and connect it with other computational tools in the Muller Lab, etc. Cheers!
+  </li>
+
+
   </ol>
   
   <br/>
