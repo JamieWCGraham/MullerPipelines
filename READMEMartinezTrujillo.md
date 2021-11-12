@@ -56,14 +56,14 @@ This is the formal documentation for the signal processing of raw data from the 
 <p> Look at the filenames in the blue circles. You should place your analagous files for your own dataset in the folder above each blue circle. Your raw files should consist of: </p>
   
 <ul> 
-  <li> <strong>One file containing 'behavioural data'</strong> consisting of information such as the trialID, stop, and start times for the cognitive tasks in the experiment. For our example data, this file is named 'Buzz_20171127_KeyMapWM.mat'. You should name it appropriately for your subject name, recording year and recording date. 
+  <li> <strong>One file containing 'behavioural data'</strong> consisting of information such as the trialID, stop, and start times for the cognitive tasks in the experiment. For our example data, this file is named 'Buzz_20171127_KeyMapWM.mat'. You should name it appropriately for your subject name, recording year and recording date. Look at the smallest blue circle above for where to place this file.
   </li>
-  <li> <strong>Eight files of raw data </strong>, 4 for the dorsal electrode array (nsp1 files are dorsal), and 4 for the ventral electrode array (nsp0 files are ventral). These filenames should be named appropriately following the example filenames in the largest blue circle above. </li>
-  <li><strong>Two files of metadata </strong>, one for the dorsal electrode array, and one for the ventral electrode array. For our example data, these files are named "BuzzDorsalArrayData.mat" and "BuzzVentralArrayData.mat", respectively. You should name yours appropriately for your subject name. </li>
+  <li> <strong>Eight files of raw data </strong>, 4 for the dorsal electrode array (nsp1 files are dorsal), and 4 for the ventral electrode array (nsp0 files are ventral). These filenames should be named and placed together appropriately following the example filenames in the largest blue circle above. </li>
+  <li><strong>Two files of metadata </strong>, one for the dorsal electrode array, and one for the ventral electrode array. For our example data, these files are named "BuzzDorsalArrayData.mat" and "BuzzVentralArrayData.mat", respectively. You should name yours appropriately for your subject name. Look at the medium blue circle above for where to place this file. </li>
   
 </ul>
   
-<p>Once you have placed the appropriate files in the designated folders above the blue circles, you can run the code "process_wm1_rawdata.m". It may take a while to run, as the code is iterating over all 100 electrodes in a given array. <strong> Note, when you are entering the subject name, you need to use quotations around the name (e.g 'Buzz'), otherwise MATLAB will not read the variable as a string. </strong> Run the code now by clicking on the green arrow shown below in your MATLAB window.</p>
+<p>Once you have placed the appropriate files in the designated folders above the blue circles, you can run the code "process_wm1_rawdata.m". It may take a while to run, as the code is iterating over all 100 electrodes in a given array. <strong> Note, when you are prompted to enter the subject name into the MATLAB command line, you need to use quotations around the name (e.g 'Buzz'), otherwise MATLAB will not read the variable as a string. </strong> Run the code now by clicking on the green arrow shown below in your MATLAB window.</p>
 
 </li>
   
