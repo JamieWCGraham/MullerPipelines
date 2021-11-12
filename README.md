@@ -176,8 +176,7 @@ This is the formal documentation for the signal processing of the intracranial E
    </ul>
  <br/>
 
-
-<img src="https://i.ibb.co/NCJ1QPm/Martinez-Trujillo-18-x-19-in-18-x-15-in-1.jpg"></img>
+ <img src="https://i.ibb.co/NCJ1QPm/Martinez-Trujillo-18-x-19-in-18-x-15-in-1.jpg"></img>
 
 Then, for visualization of raw EEG data from a specific electrode and a specific hour of the recording, the code will prompt you to enter
 
