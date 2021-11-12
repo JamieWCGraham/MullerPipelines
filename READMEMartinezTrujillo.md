@@ -56,10 +56,10 @@ This is the formal documentation for the signal processing of raw data from the 
 <p> Look at the filenames in the blue circles. You should place your analagous files for your own dataset in the folder above each blue circle. Your raw files should consist of: </p>
   
 <ul> 
-  <li> One file containing 'behavioural data' consisting of information such as the trialID, stop, and start times for the cognitive tasks in the experiment. For our example data, this file is named 'Buzz_20171127_KeyMapWM.mat'. You should name it appropriately for your subject name, recording year and recording date. 
+  <li> <strong>One file containing 'behavioural data'</strong> consisting of information such as the trialID, stop, and start times for the cognitive tasks in the experiment. For our example data, this file is named 'Buzz_20171127_KeyMapWM.mat'. You should name it appropriately for your subject name, recording year and recording date. 
   </li>
-  <li>Eight files of raw data, 4 for the dorsal electrode array (nsp1 files are dorsal), and 4 for the ventral electrode array (nsp0 files are ventral). These filenames should be named appropriately following the example filenames in the largest blue circle above. </li>
-  <li>Two files of metadata, one for the dorsal electrode array, and one for the ventral electrode array. For our example data, these files are named "BuzzDorsalArrayData.mat" and "BuzzVentralArrayData.mat", respectively. You should name yours appropriately for your subject name. </li>
+  <li> <strong>Eight files of raw data </strong>, 4 for the dorsal electrode array (nsp1 files are dorsal), and 4 for the ventral electrode array (nsp0 files are ventral). These filenames should be named appropriately following the example filenames in the largest blue circle above. </li>
+  <li><strong>Two files of metadata </strong>, one for the dorsal electrode array, and one for the ventral electrode array. For our example data, these files are named "BuzzDorsalArrayData.mat" and "BuzzVentralArrayData.mat", respectively. You should name yours appropriately for your subject name. </li>
   
 </ul>
   
