@@ -83,6 +83,8 @@ Look at the filenames in the blue circles. You should place your analagous files
 
 </li>
   
+  <img src="https://i.ibb.co/yYw1Y7M/Screen-Shot-2021-11-11-at-8-30-51-PM.png"></img>
+  
 <li>
   
  Success! Your .mat files containing the loaded LFP data are in the 'output' folder specified above. The inside of the output folder should look like this, with a .mat file for each trial:
@@ -96,12 +98,30 @@ Look at the filenames in the blue circles. You should place your analagous files
   </li>
 
  <li>
-  Click on the 'lfp' variable in the MATLAB workspace. 
+  Click on the 'lfp' variable in the MATLAB workspace, then double click on the 'data' struct in the middle pane.
   </li>
   
   <img src="https://i.ibb.co/FqjsVP3/Screen-Shot-2021-11-11-at-8-14-03-PM.png"></img>
   
+   <li>
+  Here, we have three fields: spike, lfp, and metadata. 'spike' contains all the spike data for each of the 100 electrodes for this trial. 'lfp' contains all the raw lfp data for all 100 electrodes in this trial. 'metadata' contains the metadata for this trial. Double-click on 'spike'
+  </li>
   
+  <img src="https://i.ibb.co/NnwsfK1/Screen-Shot-2021-11-11-at-8-17-45-PM.png"></img>
+  
+   <li>
+  This is an array of 100 structs, corresponding to the physical array of 100 electrodes. Double-click on the (1,1) element in this array, this corresponds to information about one of the 100 electrodes in this trial.
+  </li>
+  
+  
+  <img src="https://i.ibb.co/T8hNKjW/Screen-Shot-2021-11-11-at-8-17-51-PM.png"></img>
+  
+  <li>
+  Here, we have three fields: Timestamp, Unit, and Waveform. 'Timestamp' contains all the timestamps for all the LFP spikes from this electrode in this trial. Each electrode has a set of associated neurons around it that contribute to the electrode signal. 'Unit' contains information about which neuron generates each spike for a given electrode (e.g neuron 1,2,3 etc for this electrode). 'Waveform' contains raw lfp data for 100 datapoints around all the spikes from this electrode.
+  </li>
+  
+  <img src="https://i.ibb.co/RvGvpX2/Screen-Shot-2021-11-11-at-8-17-56-PM.png"></img>
+
   </ol>
   
   <br/>
