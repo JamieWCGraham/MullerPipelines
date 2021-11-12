@@ -48,12 +48,12 @@ This is the formal documentation for the signal processing of raw data from the 
   <br/>
 
 
-<img src="https://i.ibb.co/y6C3nJ1/Martinez-Trujillo-18-x-19-in-18-x-15-in.jpg"><img/>
+<img src="https://i.ibb.co/XCYNnfF/Martinez-Trujillo-18-x-19-in-18-x-15-in-2.png"><img/>
 
 
 <li> 
     
-Look at the filenames in the blue circles. You should place your analagous files for your own dataset in the folder above each blue circle. Once you have placed the appropriate files in the designated folders above the blue circles, you can run the code "process_wm1_rawdata.m". It may take a while to run, as the code is iterating over all 100 electrodes in a given array.
+Look at the filenames in the blue circles. You should place your analagous files for your own dataset in the folder above each blue circle. Note that the raw data for this example consists of 8 files, 4 for the dorsal electrode array (nsp1 files are dorsal), and 4 for the ventral electrode array (nsp0 files are ventral). Once you have placed the appropriate files in the designated folders above the blue circles, you can run the code "process_wm1_rawdata.m". It may take a while to run, as the code is iterating over all 100 electrodes in a given array.
 
 </li>
   
