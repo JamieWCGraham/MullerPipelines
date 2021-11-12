@@ -30,9 +30,6 @@ This is the formal documentation for the signal processing of raw data from the 
          <li>
           Subject Name ('String')
         </li>
-          <li>
-          Dorsal or Ventral Array (enter 1 or 0, respectively)
-        </li>
       </ul>
   <br/>
   <li>   The following is a diagram of the structure of this code. In order for the loading to run successfully, please place the appropriate files in each folder as designated below in the blue circles. We have provided a simple example of a set of Martinez-Trujillo data filenames to be loaded. For this example,  </li>
@@ -46,9 +43,6 @@ This is the formal documentation for the signal processing of raw data from the 
         </li>
          <li>
           Subject Name = Buzz
-        </li>
-          <li>
-          Dorsal or Ventral Array (enter 1 or 0, respectively) = 1
         </li>
       </ul>
   <br/>
