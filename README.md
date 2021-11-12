@@ -85,7 +85,7 @@ Look at the filenames in the blue circles. You should place your analagous files
   
 <li>
   
- Success! Your .mat files containing the loaded LFP data are in the 'output' folder specified above. The inside of the output folder should look like this:
+ Success! Your .mat files containing the loaded LFP data are in the 'output' folder specified above. The inside of the output folder should look like this, with a .mat file for each trial:
 
 </li>
   
