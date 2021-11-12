@@ -53,7 +53,7 @@ This is the formal documentation for the signal processing of raw data from the 
 
 <li> 
     
-Look at the filenames in the blue circles. You should place your analagous files for your own dataset in the folder above each blue circle. Note that the raw data for this example consists of 8 files, 4 for the dorsal electrode array (nsp1 files are dorsal), and 4 for the ventral electrode array (nsp0 files are ventral). Once you have placed the appropriate files in the designated folders above the blue circles, you can run the code "process_wm1_rawdata.m". It may take a while to run, as the code is iterating over all 100 electrodes in a given array. <strong> Note, when you are entering the subject name, you need to use quotations around the name (e.g 'Buzz'), otherwise MATLAB will not read the variable as a string. </strong>
+Look at the filenames in the blue circles. You should place your analagous files for your own dataset in the folder above each blue circle. Note that the raw data for this example consists of 8 files, 4 for the dorsal electrode array (nsp1 files are dorsal), and 4 for the ventral electrode array (nsp0 files are ventral). Once you have placed the appropriate files in the designated folders above the blue circles, you can run the code "process_wm1_rawdata.m". It may take a while to run, as the code is iterating over all 100 electrodes in a given array. <strong> Note, when you are entering the subject name, you need to use quotations around the name (e.g 'Buzz'), otherwise MATLAB will not read the variable as a string. </strong> Run the code now by clicking on the green arrow shown below in your MATLAB window.
 
 </li>
   
