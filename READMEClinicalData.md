@@ -44,6 +44,15 @@ This is the formal documentation for the signal processing of the intracranial E
 
 <img src="https://i.ibb.co/mFW0hGX/Martinez-Trujillo-18-x-19-in-18-x-15-in-1.png"></img>
 
+<p> Look at the filenames in the blue circles. You should place your analagous files for your own dataset in the folder above each blue circle. Your raw files should consist of: </p>
+  
+<ul> 
+  <li> <strong>One file containing 'annotation data'</strong>. For our example data, this file is named 'ann_sub-024_ses-001_run01_ieeg.mat'. You should name it appropriately for your subject number, session number and run number. Look at the smallest blue circle above for where to place this file.
+  </li>
+  <li> <strong>48 files of raw data </strong>, 24 for the 24 hours of recording from the first electrode (g1), and 24 for the 24 hours of recording from the second electrode (g2). These filenames should be named and placed together appropriately following the example filenames in the largest blue circle above. </li>
+  
+<p> Once you have placed your files in the appropriate folders, you can run the code "process_raw_clinical.m". Follow the instructions in the MATLAB command line for entering inputs related to the prompts it gives you. 
+
 <p>Then, for visualization of raw EEG data from a specific electrode and a specific hour of the recording, the code will prompt you to enter</p>
 
 <ul>
