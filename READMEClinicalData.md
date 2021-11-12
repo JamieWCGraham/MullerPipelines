@@ -1,7 +1,7 @@
 
 
 
-## 2. Clinical Recordings EEG Pipeline
+# 2. Clinical Recordings EEG Pipeline
 
 This is the formal documentation for the signal processing of the intracranial EEG recording during hospitalization of epileptic patient.
 
