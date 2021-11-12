@@ -37,29 +37,27 @@ This is the formal documentation for the signal processing of raw data from the 
 ### Usage 
 
 <ol> 
-    <li> Hopefully, you have opened the file "process_wm1_rawdata.m" in MATLAB. Before you run this file, you must ensure that your raw data files from the       Martinez-Trujillo Lab are stored in the correct folders. The file "process_wm1_rawdata.m" will prompt you to enter the following inputs:  
-  
-        <ul>
+    <li> Hopefully, you have opened the file "process_wm1_rawdata.m" in MATLAB. Before you run this file, you must ensure that your raw data files from the       Martinez-Trujillo Lab are stored in the correct folders. The file "process_wm1_rawdata.m" will prompt you to enter the following inputs:  </li>
+        <br/>
+  <ul>
         <li>
-          Session Recording Date:
+          Session Recording Date
         </li>
           <li>
-          Task Number: 
+          Task Number
         </li>
          <li>
-          Subject Name:
+          Subject Name
         </li>
           <li>
-          Dorsal or Ventral Array (enter D or V):
+          Dorsal or Ventral Array (enter 1 (Dorsal) or 0 (Ventral))
         </li>
       </ul>
-      
-  </li>
- 
-         <li>   The following is a diagram of the structure of this code. In order for the loading to run successfully, please place the appropriate files in each folder as designated below. We have provided a simple example of a set of Martinez-Trujillo data filenames to be loaded.  </li>
+  <br/>
+  <li>   The following is a diagram of the structure of this code. In order for the loading to run successfully, please place the appropriate files in each folder as designated below. We have provided a simple example of a set of Martinez-Trujillo data filenames to be loaded.  </li>
 </ol>
 
-<img src="https://i.ibb.co/BnSX18N/Martinez-Trujillo.jpg" />
+<img src="https://i.ibb.co/BnSX18N/Martinez-Trujillo.jpg"><img/>
 
 
 ### Credits
