@@ -178,8 +178,6 @@ This is the formal documentation for the signal processing of the intracranial E
 
 <img src="https://i.ibb.co/mFW0hGX/Martinez-Trujillo-18-x-19-in-18-x-15-in-1.png"></img>
 
-<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pasta-salad-horizontal-jpg-1522265695.jpg"></img>
-
 <p>Then, for visualization of raw EEG data from a specific electrode and a specific hour of the recording, the code will prompt you to enter</p>
 
 <ul>
@@ -191,6 +189,11 @@ This is the formal documentation for the signal processing of the intracranial E
         </li>
 </ul>
 
+<p>Suppose we enter g = 1, h = 10, corresponding to electrode 1's recording from 9am to 10am. The output of the code should render</p>
+
+<img src="https://i.ibb.co/yNyv9pn/Screen-Shot-2021-11-12-at-12-15-16-PM.png"></img>
+
+<p>Success! You've successfully loaded all the .mat files for this particular subject, session, and run. In the MATLAB workspace, the variable 'eeg' should be a 1x48 struct, corresponding to 24 hours of raw recordings for both electrode 1 and 2. </p>
 
 
 ### Credits
