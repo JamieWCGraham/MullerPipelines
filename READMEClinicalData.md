@@ -11,7 +11,7 @@ This is the formal documentation for the signal processing of the intracranial E
 
 ### Usage 
 
-<p>  Open the file "process_raw_clinical.m" in MATLAB. Before you run this file, you must ensure that your raw data files from the clinical recordings are stored in the correct folders. The file "process_raw_clinical.m" will prompt you to enter the following inputs:  </p>
+<p>  Open the file "process_raw_clinical.m" in MATLAB. Before you run this file, you must ensure that your raw data files from the clinical recordings are stored in the correct folders, which we will show you how to do below. The file "process_raw_clinical.m" will prompt you to enter the following inputs:  </p>
      
 <ol> 
  <br/>
