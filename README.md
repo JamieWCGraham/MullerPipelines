@@ -189,11 +189,15 @@ This is the formal documentation for the signal processing of the intracranial E
         </li>
 </ul>
 
-<p>Suppose we enter g = 1, h = 10, corresponding to electrode 1's recording from 9am to 10am. The output of the code should render</p>
+<p>Suppose we enter g = 1, h = 10, corresponding to electrode 1's recording from 9am to 10am. The output of the code should render the waveform of the raw eeg file, it will look something like this:</p>
+
+<br/>
 
 <img src="https://i.ibb.co/yNyv9pn/Screen-Shot-2021-11-12-at-12-15-16-PM.png"></img>
 
-<p>Success! You've successfully loaded all the .mat files for this particular subject, session, and run. In the MATLAB workspace, the variable 'eeg' should be a 1x48 struct, corresponding to 24 hours of raw recordings for both electrode 1 and 2. </p>
+<br/>
+
+<p><strong>Success! You've successfully loaded all the .mat files for this particular subject, session, and run. In the MATLAB workspace, the variable 'eeg' should be a 1x48 struct, corresponding to 24 hours of raw recordings for both electrode 1 and 2. </strong></p>
 
 
 ### Credits
