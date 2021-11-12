@@ -145,7 +145,49 @@ This is the formal documentation for the signal processing of the intracranial E
 
 ### Usage 
 
+<p>  Open the file "process_raw_clinical.m" in MATLAB. Before you run this file, you must ensure that your raw data files from the clinical recordings are stored in the correct folders. The file "process_raw_clinical.m" will prompt you to enter the following inputs:  </p>
+     
+<ol> 
+ <br/>
+  <ul>
+        <li>
+          Subject Number (integer)
+        </li>
+          <li>
+          Session Number (integer)
+        </li>
+         <li>
+          Run Number (integer)
+        </li>
+   </ul>
+ <br/>
+  <li>   The following is a diagram of the structure of this code. In order for the loading to run successfully, please place the appropriate files in each folder as designated below in the blue circles. We have provided a simple example of a set of clinical data filenames to be loaded. For this example,  </li>
+<br/>
+  <ul>
+        <li>
+          Subject Number (integer) = 24
+        </li>
+          <li>
+          Session Number (integer) = 1
+        </li>
+         <li>
+          Run Number (integer) = 1
+        </li>
+   </ul>
+ <br/>
 
+<img src="https://i.ibb.co/NCJ1QPm/Martinez-Trujillo-18-x-19-in-18-x-15-in-1.jpg"></img>
+
+Then, for visualization of raw EEG data from a specific electrode and a specific hour of the recording, the code will prompt you to enter
+
+<ul>
+        <li>
+          Electrode Number g (1 or 2)
+        </li>
+        <li>
+          Hour (1 - 24)
+        </li>
+</ul>
 
 ### Credits
 
