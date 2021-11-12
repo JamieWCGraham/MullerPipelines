@@ -21,3 +21,7 @@ This is the formal documentation for the signal processing of various sources of
 </ol> 
 
 
+# Usage 
+
+<p> For the documentaiton on the Martinez-Trujillo pipeline, go to the READMEMartinezTrujillo.md file </p> 
+<p> For the documentaiton on the clinical recordings pipeline, go to the READMEClinicalData.md file </p> 
