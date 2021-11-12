@@ -7,7 +7,7 @@ This is the formal documentation for the signal processing of the intracranial E
 
 ### Installation and Basic Setup 
 
-<p> Make sure that you have MATLAB installed and your raw .mat files ready to be processed. </p>
+<p> Make sure that you have MATLAB installed and your raw .mat files ready to be processed. Clone this github repository, or go to the folder 'ClinicalData', download and extract the zip file. </p>
 
 ### Usage 
 
